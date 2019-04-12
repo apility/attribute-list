@@ -18,6 +18,11 @@
       "post-install-cmd": "vendor/bin/cghooks add --ignore-lock",
       "post-update-cmd": "vendor/bin/cghooks update"
     },
+    "autoload": {
+      "psr-4": {
+        "Apility\\AttributeList\\": "src"
+      }
+    },
     "extra": {
       "hooks": {
         "pre-commit": [
